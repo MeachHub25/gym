@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- Christopher Meachem -->
+<!-- 12/2/2020 -->
+<!-- Final Project Form Page -->
+<html>
+      <head>
+            <title>Chris's Gym Form</title>
+            <script>
+            </script>
+      </head>
+      <body>
+            <form name="Chris's Gym Membership Information Form">
+                  <p>
+                  <h2>Chris's Gym Membership Information Form</h2>
+                  <p>Please fill out the following information in order to receive a gym membership. 
+                  Phone number and email must be personal and not work related.</p>
+                  <font face="Courier New">
+                        Your First Name: &nbsp;&nbsp;&nbsp;<input name="name" size="50" type="text"><br>
+                        Your Middle Name: &nbsp;&nbsp;&nbsp;<input name="name" size="50" type="text"><br>
+                        Your Last Name: &nbsp;&nbsp;&nbsp;<input name="website" size="50" type="text"><br>
+                        Your Phone Number: &nbsp;&nbsp;&nbsp;<input name="website" size="50" type="text"><br>
+                        Your E-Mail: &nbsp;&nbsp;&nbsp;<input name="email" size="50" type="text"><br>
+                        Are you from New York:<input name="return" type="radio">Yes
+                                              <input name="return" type="radio">No<br>
+                        <p>Your Place of Birth?</p>
+                        Location:<select name = "location">
+                                  <option value = "-1" selected>[choose yours]</option>
+                                  <option value = "1">Manhattan</option>
+                                  <option value = "2">Brooklyn</option>
+                                  <option value = "3">Queens</option>
+                                  <option value = "4">The Bronx</option>
+                                  <option value = "5">Staten Island</option>
+                                  <option value = "6">Long Island</option>
+                                  <option value = "7">Upstate NY</option>
+                                  <option value = "8">Out of State</option><br>
+                                  </select>
+                        <p>Your Date of Birth?</p>
+                        Month: <select name = "month">
+                               <option value = "-1" selected>[choose yours]</option>
+                               <option value = "1">January</option>
+                               <option value = "2">February</option>
+                               <option value = "3">March</option>
+                               <option value = "4">April</option>
+                               <option value = "5">May</option>
+                               <option value = "6">June</option>
+                               <option value = "7">July</option>
+                               <option value = "8">August</option>
+                               <option value = "9">September</option>
+                               <option value = "10">October</option>
+                               <option value = "11">November</option>
+                               <option value = "12">December</option><br>
+                               </select>
+                        Date: <select name = "date">
+                              <option value = "-1" selected>[choose yours]</option>
+                              <option value = "1">1</option>
+                              <option value = "2">2</option>
+                              <option value = "3">3</option>
+                              <option value = "4">4</option>
+                              <option value = "5">5</option>
+                              <option value = "6">6</option>
+                              <option value = "7">7</option>
+                              <option value = "8">8</option>
+                              <option value = "9">9</option>
+                              <option value = "10">10</option>
+                              <option value = "11">11</option>
+                              <option value = "12">12</option>
+                              <option value = "13">13</option>
+                              <option value = "14">14</option>
+                              <option value = "15">15</option>
+                              <option value = "16">16</option>
+                              <option value = "17">17</option>
+                              <option value = "18">18</option>
+                              <option value = "19">19</option>
+                              <option value = "20">20</option>
+                              <option value = "21">21</option>
+                              <option value = "22">22</option>
+                              <option value = "23">23</option>
+                              <option value = "24">24</option>
+                              <option value = "25">25</option>
+                              <option value = "26">26</option>
+                              <option value = "27">27</option>
+                              <option value = "28">28</option>
+                              <option value = "29">29</option>
+                              <option value = "30">30</option>
+                              <option value = "31">31</option><br>
+                              </select>
+                        Year: <input year="year" size="4" type="text"><br>
+                        Marital Status: <input name="status" type="checkbox">Married
+                                        <input name="status" type="checkbox">Unmarried
+                                        <input name="status" type="checkbox">Divorced<br>
+                        <p>Any Emergency Contact information</p>
+                        <p>Enter Payment Plans</p>
+                        <p>Any Additional Comment:</p>
+                        <div>
+                        <textarea name="comments" style="font-family:sans-serif;font size:2.3em;">
+                        Add your comments here
+                        </textarea>
+                        </div>
+                  </font>
+                  </p>
+                  <input type="button" value="Submit Form" onClick="doSubmit()">
+                  <input type="button" value="Clear Entries" onClick="doClear()">
+            </form>
